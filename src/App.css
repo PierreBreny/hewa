@@ -1,4 +1,5 @@
 html, body, #root {
+    font-family: 'Helvetica', 'Arial';
     font: 0.9rem sans-serif;
     background: #0a1f44;
     color: #1e2432;
@@ -7,7 +8,7 @@ html, body, #root {
 }
 
 .main-container {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://hdwallpaper20.com/wp-content/uploads/2017/07/wallpaper-wp4001752.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1748&q=80');
     background-size: cover;
     background-position: center;
 }
@@ -21,8 +22,11 @@ html, body, #root {
 }
 
 .search {
+    font-family: 'Helvetica', 'Arial';
     outline: none;
-    padding: 20px 7%;
+    padding: 15px 7%;
+    padding-left: 60px;
+    padding-right: 60px;
     border-radius: 20px;
     border: none;
     margin-bottom: 5%;
@@ -36,7 +40,7 @@ html, body, #root {
     flex-direction: column;
     padding: 40px 8%;
     border-radius: 20px;
-    background: rgba(250, 250, 250, 0.85);
+    background: #fff;
     box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
 }
 
@@ -52,6 +56,15 @@ p {
     margin-top: 10px;
     color: #1e2432;
     text-align: center;
+}
+
+.toggle {
+    padding-top: 20%;
+    width: 90%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .city sup {
@@ -84,7 +97,7 @@ p {
 
 @media only screen and (max-width: 600px) {
     .search {
-        padding: 20px 15%;
+        padding: 15px 15%;
     }
 
     .city {
