@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { fetchWeather } from './api/fetchWeather';
+import Switch from './components/Switch';
 import './App.css';
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
                         <img className="city-icon" src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt={weather.weather[0].description} />
                         <p>{weather.weather[0].description}</p>
                     </div>
+                    <Switch/>
                 </div>
             )}
         </div>
