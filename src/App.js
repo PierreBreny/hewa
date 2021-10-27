@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { fetchWeather } from './api/fetchWeather';
 import Switch from './components/Switch';
+import Logo from './components/Logo'
 
 import './App.css';
 
@@ -21,6 +22,7 @@ const App = () => {
 
     return (
         <div className="main-container">
+            <Logo />
             <input type="text" className="search" placeholder="Search..." value={query} onChange={(e) => setQuery(e.target.value)} onKeyPress={search}/>
             {weather.main && (
                 <div className="city">
