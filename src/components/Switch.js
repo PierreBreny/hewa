@@ -7,7 +7,7 @@ const Toggle = () => {
             <input type="checkbox" />
             <span className='slider' />
         </label>
-    )
-}
+    );
+};
 
 export default Toggle
