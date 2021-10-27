@@ -1,13 +1,13 @@
 # Hewa <img src="public/plant.png" width="30"/>
 
 
-**Meaning:** air (kurdish)
+**Meaning:** air (in Kurdish)
 
 This weather application project was built with **React**.
 
 ## Features
 
-In the project directory, you can run:
+In this app, you can:
 
 ### `Weather per city`
 
