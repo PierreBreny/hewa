@@ -11,11 +11,11 @@ In this app, you can:
 
 ### `Weather per city`
 
-User can display the weather for a specific city
+User can display the weather for a specific city.
 
 ### `System conversion`
 
-The data comes in Imperial System measurements. A toggle to change the data from Imperial System to Metric System
+The data comes in Imperial System measurements. A toggle to change the data from Imperial System to Metric System has been implemented.
 
 ### `Change city`
 
