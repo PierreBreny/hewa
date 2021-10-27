@@ -20,3 +20,9 @@ The data comes in Imperial System measurements. A toggle to change the data from
 ### `Change city`
 
 User can make a new search from result page.
+
+## Important
+
+In order for the app and the API fecth to work, the API_KEY must be replaced with your own credentials.
+
+In this project, for security purposes, the API_KEY has been added in a .env file then included in a .gitignore file.
